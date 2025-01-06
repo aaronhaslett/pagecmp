@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/index.ts --target default && cp src/index.css dist/pagecmp.css && cp dist/pagecmp.* ../kb/changesets/static/changesets/",
+    "build": "parcel build src/index.ts --target default && cp src/index.css dist/pagecmp.css",
     "pstart": "parcel src/index.ts --target default",
     "tsstart": "tsc --watch"
   },
